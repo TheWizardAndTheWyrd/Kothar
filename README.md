@@ -35,6 +35,16 @@ These interfaces are the contracts between the various system components.
 Wherever possible, methods and properties should expect an interface instead of
 a concrete type.  As much as possible, the code base should be SOLID and DRY.
 
+All game events and game state will have its athoritative state held server side.
+Game clients will submit data, and that data will be verified server side.
+Essentially, all data wil be verified server side to make hacking as difficult as
+possible.  We must always assume all client software installations are compromised
+and we should never trust information sent from clients until it is verified server
+side.
+
+All communications over the wire should be encrypted with SSL at a bar minimum.  As
+the platform evolves, so will its security foot print.
+
 Licensing and Contributors
 ==========================
 

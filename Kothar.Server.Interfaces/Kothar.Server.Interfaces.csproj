@@ -40,10 +40,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Engine\IAbstractEventListener.cs" />
+    <Compile Include="Engine\IBaseBehavior.cs" />
+    <Compile Include="Engine\IBasicInterpolatable.cs" />
+    <Compile Include="Engine\IBasicInterpolator.cs" />
+    <Compile Include="Engine\IBasicPerceiveFilter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Engine\" />
     <Folder Include="Events\" />
     <Folder Include="Marshalling\" />
     <Folder Include="Math\" />
