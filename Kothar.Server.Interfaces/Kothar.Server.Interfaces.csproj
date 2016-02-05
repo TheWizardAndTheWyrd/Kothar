@@ -45,6 +45,24 @@
     <Compile Include="Engine\IBasicInterpolatable.cs" />
     <Compile Include="Engine\IBasicInterpolator.cs" />
     <Compile Include="Engine\IBasicPerceiveFilter.cs" />
+    <Compile Include="Engine\IBasicWorldNode.cs" />
+    <Compile Include="Engine\IBehavior.cs" />
+    <Compile Include="Engine\IBehaviorFactory.cs" />
+    <Compile Include="Engine\IConfiguration.cs" />
+    <Compile Include="Engine\IDatabase.cs" />
+    <Compile Include="Engine\IDefaultWorldLoaderOverride.cs" />
+    <Compile Include="Engine\IEngine.cs" />
+    <Compile Include="Engine\IEnginePlugin.cs" />
+    <Compile Include="Engine\IEvent.cs" />
+    <Compile Include="Engine\IEventHandler.cs" />
+    <Compile Include="Engine\IEventParser.cs" />
+    <Compile Include="Engine\IEventServer.cs" />
+    <Compile Include="Engine\IFixedPerceiver.cs" />
+    <Compile Include="Engine\IGenericBehaviorFactory.cs" />
+    <Compile Include="Engine\IHook.cs" />
+    <Compile Include="Engine\IHookManager.cs" />
+    <Compile Include="Engine\IInterpolatable.cs" />
+    <Compile Include="Engine\IInterpolatedWorldNode.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
