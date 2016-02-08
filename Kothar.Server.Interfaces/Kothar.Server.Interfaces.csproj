@@ -160,10 +160,18 @@
     <Compile Include="Marshalling\IMarshallingGenerator.cs" />
     <Compile Include="Marshalling\IMarshallingRuntime.cs" />
     <Compile Include="Marshalling\ITrampoline.cs" />
+    <Compile Include="Math\IAOVector.cs" />
+    <Compile Include="Math\IFlags.cs" />
+    <Compile Include="Math\IGeometry.cs" />
+    <Compile Include="Math\IIntVector2.cs" />
+    <Compile Include="Math\IIntVector3.cs" />
+    <Compile Include="Math\IMatrix4.cs" />
+    <Compile Include="Math\IPlane.cs" />
+    <Compile Include="Math\IPoint.cs" />
+    <Compile Include="Math\IQuaternion.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Math\" />
     <Folder Include="Messages\" />
     <Folder Include="Networking\" />
     <Folder Include="Objects\" />
