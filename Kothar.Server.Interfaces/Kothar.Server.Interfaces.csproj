@@ -153,10 +153,16 @@
     <Compile Include="Events\IUnregisterEntityResponseEvent.cs" />
     <Compile Include="Events\IUserInterfaceTheme.cs" />
     <Compile Include="Events\IWorldFileEvent.cs" />
+    <Compile Include="Marshalling\IInjectClassFiles.cs" />
+    <Compile Include="Marshalling\IInjectionGenerator.cs" />
+    <Compile Include="Marshalling\IMarshallable.cs" />
+    <Compile Include="Marshalling\IMarshallingClassLoader.cs" />
+    <Compile Include="Marshalling\IMarshallingGenerator.cs" />
+    <Compile Include="Marshalling\IMarshallingRuntime.cs" />
+    <Compile Include="Marshalling\ITrampoline.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Marshalling\" />
     <Folder Include="Math\" />
     <Folder Include="Messages\" />
     <Folder Include="Networking\" />
