@@ -437,10 +437,11 @@
     <Compile Include="Voice\IVoiceConnection.cs" />
     <Compile Include="Voice\IVoiceGroup.cs" />
     <Compile Include="Voice\IVoiceSender.cs" />
+    <Compile Include="WorldManager\ICharacterFactory.cs" />
+    <Compile Include="WorldManager\ICharacterGenerator.cs" />
+    <Compile Include="WorldManager\ILoginPlugin.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="WorldManager\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
