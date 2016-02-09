@@ -318,10 +318,32 @@
     <Compile Include="PathFinding\Detour\ISegmentInterval.cs" />
     <Compile Include="PathFinding\Detour\IStatus.cs" />
     <Compile Include="PathFinding\Detour\ITileState.cs" />
+    <Compile Include="PathFinding\Recast\IBoundsItem.cs" />
+    <Compile Include="PathFinding\Recast\IBuildContourFlags.cs" />
+    <Compile Include="PathFinding\Recast\IChunkyTriMesh.cs" />
+    <Compile Include="PathFinding\Recast\IChunkyTriMeshNode.cs" />
+    <Compile Include="PathFinding\Recast\ICompactCell.cs" />
+    <Compile Include="PathFinding\Recast\ICompactHeightField.cs" />
+    <Compile Include="PathFinding\Recast\ICompactSpan.cs" />
+    <Compile Include="PathFinding\Recast\IConfiguration.cs" />
+    <Compile Include="PathFinding\Recast\IContour.cs" />
+    <Compile Include="PathFinding\Recast\IContourSet.cs" />
+    <Compile Include="PathFinding\Recast\IDetailPolyMesh.cs" />
+    <Compile Include="PathFinding\Recast\IEdge.cs" />
+    <Compile Include="PathFinding\Recast\IGeometry.cs" />
+    <Compile Include="PathFinding\Recast\IHeightField.cs" />
+    <Compile Include="PathFinding\Recast\IHeightPatch.cs" />
+    <Compile Include="PathFinding\Recast\IHelper.cs" />
+    <Compile Include="PathFinding\Recast\INavMeshParameterXmlLoader.cs" />
+    <Compile Include="PathFinding\Recast\INavMeshXmlLoader.cs" />
+    <Compile Include="PathFinding\Recast\IPolyMesh.cs" />
+    <Compile Include="PathFinding\Recast\IRecastVertex.cs" />
+    <Compile Include="PathFinding\Recast\IRegion.cs" />
+    <Compile Include="PathFinding\Recast\ISpan.cs" />
+    <Compile Include="PathFinding\Recast\ISpanPool.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="PathFinding\Recast\" />
     <Folder Include="Physics\" />
     <Folder Include="Plugins\" />
     <Folder Include="Utilities\" />
