@@ -169,10 +169,26 @@
     <Compile Include="Math\IPlane.cs" />
     <Compile Include="Math\IPoint.cs" />
     <Compile Include="Math\IQuaternion.cs" />
+    <Compile Include="Messages\IBracketedMessage.cs" />
+    <Compile Include="Messages\IClientMessage.cs" />
+    <Compile Include="Messages\ILoginMessage.cs" />
+    <Compile Include="Messages\ILogoutMessage.cs" />
+    <Compile Include="Messages\INameSpaceFilter.cs" />
+    <Compile Include="Messages\INameSpaceMessage.cs" />
+    <Compile Include="Messages\IObjectIdNameSpaceMessage.cs" />
+    <Compile Include="Messages\IPerceptionFilter.cs" />
+    <Compile Include="Messages\IPerceptionMessage.cs" />
+    <Compile Include="Messages\IPerceptionTrigger.cs" />
+    <Compile Include="Messages\IPerceptionUpdateTrigger.cs" />
+    <Compile Include="Messages\IPopulationFilter.cs" />
+    <Compile Include="Messages\IPropertyFilter.cs" />
+    <Compile Include="Messages\IPropertyMessage.cs" />
+    <Compile Include="Messages\ISearchMessage.cs" />
+    <Compile Include="Messages\ISearchMessageFilter.cs" />
+    <Compile Include="Messages\ISubObjectFilter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Messages\" />
     <Folder Include="Networking\" />
     <Folder Include="Objects\" />
     <Folder Include="PathFinding\" />
