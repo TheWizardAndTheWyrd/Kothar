@@ -365,10 +365,16 @@
     <Compile Include="PathFinding\Recast\IRegion.cs" />
     <Compile Include="PathFinding\Recast\ISpan.cs" />
     <Compile Include="PathFinding\Recast\ISpanPool.cs" />
+    <Compile Include="Physics\IBox.cs" />
+    <Compile Include="Physics\IColladaPhysicsParser.cs" />
+    <Compile Include="Physics\IGeometry.cs" />
+    <Compile Include="Physics\IRotateTransform.cs" />
+    <Compile Include="Physics\IShape.cs" />
+    <Compile Include="Physics\ITransform.cs" />
+    <Compile Include="Physics\ITranslateTransform.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Physics\" />
     <Folder Include="Plugins\" />
     <Folder Include="Utilities\" />
     <Folder Include="Voice\" />
