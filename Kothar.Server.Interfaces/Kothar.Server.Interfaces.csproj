@@ -429,9 +429,16 @@
     <Compile Include="Utilities\ITimeHistogram.cs" />
     <Compile Include="Utilities\ITimingMeter.cs" />
     <Compile Include="Utilities\IXmlHelper.cs" />
+    <Compile Include="Voice\IBasicVoiceGroup.cs" />
+    <Compile Include="Voice\IGroupMember.cs" />
+    <Compile Include="Voice\INonpositionalVoiceGroup.cs" />
+    <Compile Include="Voice\IPositionalGroupMember.cs" />
+    <Compile Include="Voice\IPositionalVoiceGroup.cs" />
+    <Compile Include="Voice\IVoiceConnection.cs" />
+    <Compile Include="Voice\IVoiceGroup.cs" />
+    <Compile Include="Voice\IVoiceSender.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Voice\" />
     <Folder Include="WorldManager\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
