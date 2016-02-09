@@ -269,10 +269,32 @@
     <Compile Include="Objects\IVector2.cs" />
     <Compile Include="Objects\IWorld.cs" />
     <Compile Include="Objects\IWorldEnvironmentObjectFactory.cs" />
+    <Compile Include="PathFinding\Crowd\ICrowd.cs" />
+    <Compile Include="PathFinding\Crowd\ICrowdAgent.cs" />
+    <Compile Include="PathFinding\Crowd\ICrowdAgentAnimation.cs" />
+    <Compile Include="PathFinding\Crowd\ICrowdAgentDebugInfo.cs" />
+    <Compile Include="PathFinding\Crowd\ICrowdAgentParameters.cs" />
+    <Compile Include="PathFinding\Crowd\ICrowdAgentState.cs" />
+    <Compile Include="PathFinding\Crowd\ICrowdBuilder.cs" />
+    <Compile Include="PathFinding\Crowd\ICrowdNeighbor.cs" />
+    <Compile Include="PathFinding\Crowd\IDtAllocHint.cs" />
+    <Compile Include="PathFinding\Crowd\ILocalBoundary.cs" />
+    <Compile Include="PathFinding\Crowd\IMoveRequestState.cs" />
+    <Compile Include="PathFinding\Crowd\IObstacleAvoidanceDebugData.cs" />
+    <Compile Include="PathFinding\Crowd\IObstacleAvoidanceParameters.cs" />
+    <Compile Include="PathFinding\Crowd\IObstacleAvoidanceQuery.cs" />
+    <Compile Include="PathFinding\Crowd\IObstacleCircle.cs" />
+    <Compile Include="PathFinding\Crowd\IObstacleSegment.cs" />
+    <Compile Include="PathFinding\Crowd\IObstacleState.cs" />
+    <Compile Include="PathFinding\Crowd\IPathCorridor.cs" />
+    <Compile Include="PathFinding\Crowd\IPathQueue.cs" />
+    <Compile Include="PathFinding\Crowd\IProximityGrid.cs" />
+    <Compile Include="PathFinding\Crowd\IUpdateFlags.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="PathFinding\" />
+    <Folder Include="PathFinding\Detour\" />
+    <Folder Include="PathFinding\Recast\" />
     <Folder Include="Physics\" />
     <Folder Include="Plugins\" />
     <Folder Include="Utilities\" />
