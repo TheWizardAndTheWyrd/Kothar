@@ -41,6 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="IAdvertiseMessage.cs" />
+    <Compile Include="IAgent.cs" />
     <Compile Include="IAgentHandle.cs" />
     <Compile Include="IAgentHelloMessage.cs" />
     <Compile Include="IAgentInfo.cs" />

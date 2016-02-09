@@ -38,6 +38,7 @@ namespace Kothar.Management.Interfaces
 
         /// <summary>
         /// Retrieves the PIDs for a collection of processes.
+        /// TODO: Transform into a .ctor()
         /// </summary>
         /// <param name="pidDir"></param>
         /// <param name="processes"></param>
