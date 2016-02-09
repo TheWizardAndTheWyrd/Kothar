@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kothar.Persistence.Interfac
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kothar.Scripts.Interfaces", "Kothar.Scripts.Interfaces\Kothar.Scripts.Interfaces.csproj", "{CF861F52-35D1-4A3E-9747-86A59A98EFC1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kothar.Commons", "Kothar.Commons\Kothar.Commons.csproj", "{D9514796-F824-4957-9890-4BF3D52BC697}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,14 @@ Global
 		{CF861F52-35D1-4A3E-9747-86A59A98EFC1}.Release|Any CPU.Build.0 = Release|Any CPU
 		{CF861F52-35D1-4A3E-9747-86A59A98EFC1}.Release|x64.ActiveCfg = Release|Any CPU
 		{CF861F52-35D1-4A3E-9747-86A59A98EFC1}.Release|x64.Build.0 = Release|Any CPU
+		{D9514796-F824-4957-9890-4BF3D52BC697}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9514796-F824-4957-9890-4BF3D52BC697}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9514796-F824-4957-9890-4BF3D52BC697}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{D9514796-F824-4957-9890-4BF3D52BC697}.Debug|x64.Build.0 = Debug|Any CPU
+		{D9514796-F824-4957-9890-4BF3D52BC697}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9514796-F824-4957-9890-4BF3D52BC697}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9514796-F824-4957-9890-4BF3D52BC697}.Release|x64.ActiveCfg = Release|Any CPU
+		{D9514796-F824-4957-9890-4BF3D52BC697}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
