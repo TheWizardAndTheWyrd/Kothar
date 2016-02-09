@@ -372,10 +372,29 @@
     <Compile Include="Physics\IShape.cs" />
     <Compile Include="Physics\ITransform.cs" />
     <Compile Include="Physics\ITranslateTransform.cs" />
+    <Compile Include="Plugins\IBillingClient.cs" />
+    <Compile Include="Plugins\IBillingPlugin.cs" />
+    <Compile Include="Plugins\IClientParameter.cs" />
+    <Compile Include="Plugins\IFlashPolicyPlugin.cs" />
+    <Compile Include="Plugins\IInstanceClient.cs" />
+    <Compile Include="Plugins\IInstancePlugin.cs" />
+    <Compile Include="Plugins\IInventoryClient.cs" />
+    <Compile Include="Plugins\IInventoryPlugin.cs" />
+    <Compile Include="Plugins\IJukeboxWebPlugin.cs" />
+    <Compile Include="Plugins\IMobManagerClient.cs" />
+    <Compile Include="Plugins\IMobManagerPlugin.cs" />
+    <Compile Include="Plugins\IObjectIdSubscriptionMap.cs" />
+    <Compile Include="Plugins\IObjectManagerClient.cs" />
+    <Compile Include="Plugins\IObjectManagerPlugin.cs" />
+    <Compile Include="Plugins\IProxyHook.cs" />
+    <Compile Include="Plugins\IProxyPlugin.cs" />
+    <Compile Include="Plugins\IVoiceClient.cs" />
+    <Compile Include="Plugins\IVoicePlugin.cs" />
+    <Compile Include="Plugins\IWorldManagerClient.cs" />
+    <Compile Include="Plugins\IWorldManagerPlugin.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Plugins\" />
     <Folder Include="Utilities\" />
     <Folder Include="Voice\" />
     <Folder Include="WorldManager\" />
