@@ -186,6 +186,17 @@
     <Compile Include="Messages\ISearchMessage.cs" />
     <Compile Include="Messages\ISearchMessageFilter.cs" />
     <Compile Include="Messages\ISubObjectFilter.cs" />
+    <Compile Include="Networking\IAOByteBuffer.cs" />
+    <Compile Include="Networking\IAOMessageNames.cs" />
+    <Compile Include="Networking\IChannelUtility.cs" />
+    <Compile Include="Networking\IClientConnection.cs" />
+    <Compile Include="Networking\IClientSerializable.cs" />
+    <Compile Include="Networking\IClientTcpConnection.cs" />
+    <Compile Include="Networking\IClientTcpMessageIO.cs" />
+    <Compile Include="Networking\IClientUdpConnection.cs" />
+    <Compile Include="Networking\IPacketAggregator.cs" />
+    <Compile Include="Networking\ITcpAcceptCallBack.cs" />
+    <Compile Include="Networking\ITcpServer.cs" />
     <Compile Include="Networking\RDP\IConnectionInfo.cs" />
     <Compile Include="Networking\RDP\IRDPAcceptCallBack.cs" />
     <Compile Include="Networking\RDP\IRDPConnection.cs" />
