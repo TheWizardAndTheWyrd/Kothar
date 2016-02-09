@@ -393,9 +393,44 @@
     <Compile Include="Plugins\IWorldManagerClient.cs" />
     <Compile Include="Plugins\IWorldManagerPlugin.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utilities\IAnimationCommand.cs" />
+    <Compile Include="Utilities\IAODeadLockException.cs" />
+    <Compile Include="Utilities\IAOLock.cs" />
+    <Compile Include="Utilities\IAOMeter.cs" />
+    <Compile Include="Utilities\IAORuntimeException.cs" />
+    <Compile Include="Utilities\IAOTimer.cs" />
+    <Compile Include="Utilities\IBase64.cs" />
+    <Compile Include="Utilities\ICounter.cs" />
+    <Compile Include="Utilities\ICountLogger.cs" />
+    <Compile Include="Utilities\ICountMeter.cs" />
+    <Compile Include="Utilities\IDebugUtilities.cs" />
+    <Compile Include="Utilities\IDLock.cs" />
+    <Compile Include="Utilities\IDumpStack.cs" />
+    <Compile Include="Utilities\IFileUtility.cs" />
+    <Compile Include="Utilities\IForwardReverseMap.cs" />
+    <Compile Include="Utilities\IInitLogAndPid.cs" />
+    <Compile Include="Utilities\ILockFactory.cs" />
+    <Compile Include="Utilities\ILog.cs" />
+    <Compile Include="Utilities\ILogger.cs" />
+    <Compile Include="Utilities\IMeterManager.cs" />
+    <Compile Include="Utilities\INamedThreadFactory.cs" />
+    <Compile Include="Utilities\IObjectLockManager.cs" />
+    <Compile Include="Utilities\IPoints.cs" />
+    <Compile Include="Utilities\ISecureToken.cs" />
+    <Compile Include="Utilities\ISecureTokenManager.cs" />
+    <Compile Include="Utilities\ISecureTokenSpec.cs" />
+    <Compile Include="Utilities\ISecureTokenUtility.cs" />
+    <Compile Include="Utilities\ISerialUtilities.cs" />
+    <Compile Include="Utilities\IServerVersion.cs" />
+    <Compile Include="Utilities\ISquareQueue.cs" />
+    <Compile Include="Utilities\ISquareQueueCallBack.cs" />
+    <Compile Include="Utilities\ISquareQueueThreadPool.cs" />
+    <Compile Include="Utilities\ITable.cs" />
+    <Compile Include="Utilities\ITimeHistogram.cs" />
+    <Compile Include="Utilities\ITimingMeter.cs" />
+    <Compile Include="Utilities\IXmlHelper.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Utilities\" />
     <Folder Include="Voice\" />
     <Folder Include="WorldManager\" />
   </ItemGroup>
