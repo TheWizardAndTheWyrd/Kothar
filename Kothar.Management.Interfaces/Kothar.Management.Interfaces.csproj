@@ -46,6 +46,16 @@
     <Compile Include="ITransientAgent.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Kothar.MessageSystem.Interfaces\Kothar.MessageSystem.Interfaces.csproj">
+      <Project>{9BFB32C3-B550-437D-8A64-F679160F51D5}</Project>
+      <Name>Kothar.MessageSystem.Interfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Kothar.Server.Interfaces\Kothar.Server.Interfaces.csproj">
+      <Project>{FBEDDA36-6F39-4B56-B9B6-7D752661BEE2}</Project>
+      <Name>Kothar.Server.Interfaces</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

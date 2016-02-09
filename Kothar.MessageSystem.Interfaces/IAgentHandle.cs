@@ -2,6 +2,6 @@
 {
     public interface IAgentHandle
     {
-         
+        string AgentName { get; }
     }
 }

@@ -1,6 +1,6 @@
 ﻿namespace Kothar.MessageSystem.Interfaces
 {
-    public interface IAgentStateMessage
+    public interface IAgentStateMessage : IMessage
     {
          
     }
