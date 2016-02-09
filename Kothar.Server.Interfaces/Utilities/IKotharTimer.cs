@@ -1,6 +1,6 @@
 ﻿namespace Kothar.Server.Interfaces.Utilities
 {
-    public interface IAOMeter
+    public interface IKotharTimer
     {
          
     }

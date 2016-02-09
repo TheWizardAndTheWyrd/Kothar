@@ -1,6 +1,6 @@
 ﻿namespace Kothar.Server.Interfaces.Math
 {
-    public interface IAOVector
+    public interface IKotharVector
     {
          
     }

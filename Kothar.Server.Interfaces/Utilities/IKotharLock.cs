@@ -1,6 +1,6 @@
 ﻿namespace Kothar.Server.Interfaces.Utilities
 {
-    public interface IAORuntimeException
+    public interface IKotharLock
     {
          
     }

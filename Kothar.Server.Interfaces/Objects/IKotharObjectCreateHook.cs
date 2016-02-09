@@ -1,6 +1,6 @@
 ﻿namespace Kothar.Server.Interfaces.Objects
 {
-    public interface IAOObjectPersistenceDelegate
+    public interface IKotharObjectCreateHook
     {
          
     }
