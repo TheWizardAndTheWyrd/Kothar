@@ -40,6 +40,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IDeleteCharacter.cs" />
+    <Compile Include="ILauncher.cs" />
+    <Compile Include="IPrintObjectnfo.cs" />
+    <Compile Include="IPropertyGetter.cs" />
+    <Compile Include="IServerStatus.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

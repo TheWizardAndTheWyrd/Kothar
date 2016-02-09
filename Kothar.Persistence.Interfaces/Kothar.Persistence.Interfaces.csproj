@@ -40,6 +40,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ICoding.cs" />
+    <Compile Include="IObjectReader.cs" />
+    <Compile Include="IObjectWriter.cs" />
+    <Compile Include="IPackageAliases.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
