@@ -186,10 +186,18 @@
     <Compile Include="Messages\ISearchMessage.cs" />
     <Compile Include="Messages\ISearchMessageFilter.cs" />
     <Compile Include="Messages\ISubObjectFilter.cs" />
+    <Compile Include="Networking\RDP\IConnectionInfo.cs" />
+    <Compile Include="Networking\RDP\IRDPAcceptCallBack.cs" />
+    <Compile Include="Networking\RDP\IRDPConnection.cs" />
+    <Compile Include="Networking\RDP\IRDPPacket.cs" />
+    <Compile Include="Networking\RDP\IRDPPacketCallBack.cs" />
+    <Compile Include="Networking\RDP\IRDPServer.cs" />
+    <Compile Include="Networking\RDP\IRDPServerSocket.cs" />
+    <Compile Include="Networking\RDP\ITestRDP.cs" />
+    <Compile Include="Networking\RDP\ITestRDPServer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Networking\" />
     <Folder Include="Objects\" />
     <Folder Include="PathFinding\" />
     <Folder Include="Physics\" />
