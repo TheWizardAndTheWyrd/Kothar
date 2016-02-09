@@ -1,4 +1,7 @@
-﻿$HEADER$namespace $NAMESPACE$
+﻿namespace Kothar.Server.Interfaces.Messages
 {
-  public interface $INTERFACE$ {$END$}
+    public interface ISubObjectFilter
+    {
+        
+    }
 }

@@ -1,7 +1,13 @@
-﻿namespace Kothar.MessageSystem.Interfaces
+﻿
+using Kothar.Server.Interfaces.Networking;
+
+namespace Kothar.MessageSystem.Interfaces
 {
-    public interface IDomainServer
+    public interface IDomainServer : ITcpAcceptCallBack
+
     {
-         
+        int DefaultPort { get; }
+
+        
     }
 }
