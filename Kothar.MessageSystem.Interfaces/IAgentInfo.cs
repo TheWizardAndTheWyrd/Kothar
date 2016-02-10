@@ -4,6 +4,8 @@ namespace Kothar.MessageSystem.Interfaces
 {
     public interface IAgentInfo : IAgentHandle, IAgent
     {
+        new string AgentName { get; }
+
         /// <summary>
         /// TODO: Define the ISocketChannel interface and wrap the actor system; possibly with Web Sockets.
         /// </summary>
