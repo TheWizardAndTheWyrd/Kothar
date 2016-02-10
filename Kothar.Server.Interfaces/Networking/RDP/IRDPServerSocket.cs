@@ -1,4 +1,7 @@
-﻿$HEADER$namespace $NAMESPACE$
+﻿namespace Kothar.Server.Interfaces.Networking.RDP
 {
-  public interface $INTERFACE$ {$END$}
+    public interface IRDPServerSocket
+    {
+        
+    }
 }
