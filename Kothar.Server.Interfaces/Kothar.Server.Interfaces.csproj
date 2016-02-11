@@ -40,6 +40,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Commons\IConnect.cs" />
+    <Compile Include="Commons\IDomainHost.cs" />
+    <Compile Include="Commons\IMain.cs" />
     <Compile Include="Engine\IAbstractEventListener.cs" />
     <Compile Include="Engine\IBaseBehavior.cs" />
     <Compile Include="Engine\IBasicInterpolatable.cs" />

@@ -2,7 +2,7 @@
 
 namespace Kothar.MessageSystem.Interfaces
 {
-    public interface IAgentInfo : IAgentHandle, IAgent
+    public interface IAgentInfo : IAgent
     {
         new string AgentName { get; }
 

@@ -40,6 +40,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Enums\MessageType.cs" />
     <Compile Include="IAdvertiseMessage.cs" />
     <Compile Include="IAgent.cs" />
     <Compile Include="IAgentHandle.cs" />

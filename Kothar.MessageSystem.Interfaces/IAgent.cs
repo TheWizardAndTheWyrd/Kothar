@@ -1,10 +1,8 @@
 ﻿namespace Kothar.MessageSystem.Interfaces
 {
-    public interface IAgent
+    public interface IAgent : IAgentHandle
     {
-        int AgentId { get; set; }
-
-        string AgentName { get; set; }
+        int AgentId { get; set; }        
 
         string AgentIp { get; set; }
 

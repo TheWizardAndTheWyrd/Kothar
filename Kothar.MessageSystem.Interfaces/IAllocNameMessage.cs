@@ -1,10 +1,8 @@
 ﻿namespace Kothar.MessageSystem.Interfaces
 {
-    public interface IAllocNameMessage : IMessage
+    public interface IAllocNameMessage : IMessage, IAgentHandle
     {
-        string MessageType { get; set; }
-
-        string AgentName { get; set; }
+        string MessageType { get; set; }        
 
         long SerialVersionUId { get; set; }
     }

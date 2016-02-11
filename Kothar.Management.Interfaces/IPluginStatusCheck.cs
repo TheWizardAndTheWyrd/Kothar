@@ -1,13 +1,12 @@
 ﻿using System.Collections.Generic;
 using System.Runtime.Serialization;
 using Kothar.MessageSystem.Interfaces;
+using Kothar.Server.Interfaces.Commons;
 
 namespace Kothar.Management.Interfaces
 {
-    public interface IPluginStatusCheck
+    public interface IPluginStatusCheck : IResponseCallBack, IConnect, IMain
     {
-        void Connect();
-
         IEnumerable<string> GetPluginStatus();
 
         void HandleResponse(IResponseMessage responseMessage);
@@ -19,8 +18,5 @@ namespace Kothar.Management.Interfaces
         int ExpectedResponders { get; }
 
         IDictionary<string, ISerializable> Rollup { get; }
-
-        // Transform into a .ctor() and helper methods.
-        void Main(string[] args);
     }
 }
