@@ -1,6 +1,8 @@
-﻿namespace Kothar.MessageSystem.Interfaces
+﻿using Kothar.Server.Interfaces.Marshalling;
+
+namespace Kothar.MessageSystem.Interfaces
 {
-    public interface IBooleanResponseMessage : IResponseMessage
+    public interface IBooleanResponseMessage : IResponseMessage, IMarshallable
     {
         long SerialVersionUId { get; }
 

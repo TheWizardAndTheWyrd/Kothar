@@ -9,5 +9,6 @@
         AgentState,
         AllocName,
         AllocNameResponse,
+        AwaitPluginDependets
     }
 }
